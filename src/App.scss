@@ -1,0 +1,58 @@
+.App{
+  text-align: center;
+}
+.main-wrapper{
+  width: 100%;
+  position: relative;
+  table{
+    width: 80%;
+    margin: 30px auto;
+    tr{
+      height: 30px;
+      td{
+        background-color: #dddddd;
+        a{
+          display: block;
+        }
+      }
+    }
+    thead{
+      tr{
+        td{
+          background-color: #202124;
+          color: #fff;
+        }
+      }
+    }
+  }
+  input{
+    height: 30px;
+    width: 300px;
+    max-width: 80%;
+    padding-left: 10px;
+  }
+  ul{
+    width: 300px;
+    max-width: 80%;
+    list-style: none;
+    padding: 0;
+    border-radius: 4px;
+    margin: 5px auto;
+    box-shadow: 1px 1px 3px #202124;
+    position: absolute;
+    background: #fff;
+    z-index: 99;
+    left: 50%;
+    transform: translate(-50%);
+
+    li{
+      padding: 3px 0;
+      a{
+        cursor: pointer;
+        display: block;
+        color: rgb(85,26,129);
+        text-decoration: underline;
+      }
+    }
+  }
+}
